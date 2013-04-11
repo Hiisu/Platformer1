@@ -33,6 +33,8 @@ public class PlayerMovement : MonoBehaviour {
 	void Start () 
 	{
 		controller = GetComponent<CharacterController>();
+	
+			
 		state = PlayerState.Standing;
 	}
 	

@@ -84,7 +84,7 @@ function Apply (dummyTarget : Transform, dummyCenter : Vector3)
 	var targetCenter = _target.position + centerOffset;
 	var targetHead = _target.position + headOffset;
 
-//	DebugDrawStuff();
+	DebugDrawStuff();
 
 	// Calculate the current & target rotation angles
 	var originalTargetAngle = _target.eulerAngles.y;
